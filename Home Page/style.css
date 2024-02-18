@@ -1,0 +1,564 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles */
+.food {
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.meal {
+    margin-left: 12%;
+    font-size: 21px;
+}
+
+.meal2 {
+    margin-left: 10.5%;
+    font-size: 21px;
+}
+
+.par {
+    color: aliceblue;
+}
+
+.imgmeal {
+    margin-left: -1000px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.aloo {
+    color: white;
+    font-weight: 550;
+    font-size: 22px;
+    margin-left: 250px;
+}
+
+.flex59 {
+    display: flex;
+    color: white;
+    font-weight: 550;
+    font-size: 30px;
+    margin-left: 750px;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #4ade80;
+
+}
+
+.item {
+    margin-left: 300px;
+    font-weight: bolder;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+.rate {
+    color: white;
+    font-weight: 550;
+    font-size: 22px;
+    margin-left: 355px;
+}
+
+.add {
+    color: white;
+    font-weight: 550;
+    font-size: 22px;
+    margin-left: 305px;
+}
+
+.parth {
+    color: white;
+    font-weight: 550;
+    font-size: 22px;
+    margin-left: 295px;
+    /* font-size: 21px; */
+}
+
+.Tea-Rate {
+    margin-left :  450px;
+    color:white;
+    font-weight: 550;
+    font-size: 22px;
+}
+
+.Cone-Rate {
+    margin-left : 450px;
+    color:white;
+    font-weight: 550;
+    font-size: 22px;
+}
+
+.bar-rate {
+    color: white;
+    font-weight: 550;
+    font-size: 22px;
+    margin-left : 300px;
+
+}
+
+
+.viewcart {
+    color: rgb(22, 13, 1);
+    font-weight: 550;
+    font-size: 22px;
+    position: absolute;
+    background-color: orange;
+    left : 600px;
+    padding: 10px;
+    font-weight: 600;
+    font-size: x-large;
+    margin: 10px;
+    margin-top: 40px;
+    display : none;
+   
+}
+
+.hungry {
+    width: 260px;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    font-family: cursive;
+    /* box-shadow: 0 0 50px aqua; */
+    background: transparent;
+    /* animation: zoom-in-zoom-out 5s ease infinite; */
+    text-shadow: 2px 2px 4px #1e9bff;
+
+}
+
+.meal {
+    color:white;
+    font-family: cursive;
+    font-size: 27px;
+
+}
+
+.meal:hover {
+    transform: scale(1.1);
+    
+}
+
+.meal2:hover {
+    transform: scale(1.1);
+
+}
+
+
+.meal2 {
+    color:white;
+    font-family: cursive;
+    font-size: 27px;
+    margin-left: 4px;
+
+}   
+
+.meal {
+    /* position: relative; */
+    display: inline-block;
+    margin-left: 40px;
+
+  }
+
+  #MEAL1 {
+    margin-left: 300px;
+  }
+  #MEAL2 {
+    margin-left: 240px;
+  }
+  #MEAL3 {
+    margin-left: 220px;
+  }
+  #MEAL4 {
+    margin-left: 290px;
+  }
+  
+  .meal::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: rgb(228, 27, 181); /* Change color as needed */
+    transition: width 0.3s ease-out;
+  }
+  
+  .meal:hover::before {
+    width: 100%;
+  }
+  
+
+ 
+    /* @keyframes traverse {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+      
+      body {
+            top: 50%;
+        left: 0;
+        background-size: cover;
+        animation: traverse 5s linear 
+  } */
+
+  
+
+  
+
+  .meal2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .meal2::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 4px;
+    background-color: rgb(228, 27, 181); /* Change color as needed */
+    transition: width 0.3s ease-out;
+  }
+  
+  .meal2:hover::before {
+    width: 100%;
+  }
+
+
+  .viewcart {
+    position: relative;
+    background: black;
+    color: #fff;
+    /* color: #000; */
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:1.5em;
+    letter-spacing: 0.1em;
+    font-weight:400;
+    padding: 10px 30px;
+    transition: 0.5s;
+    border: 3px solid white;
+  }
+
+  .viewcart:hover {
+    letter-spacing: 0.25em;
+    background-color: #27282c;
+    box-shadow: 0 0 8px #1e9bff;
+    font-weight: 600 ;
+    color:#1e9bff; 
+    border: 2px solid #1e9bff;
+  }
+
+
+  .inc {
+    background:#f1f5f900;
+    border-radius: 100px;
+    width: 80px;
+    padding: 10px ;
+    margin: 10px;
+    color: black;
+    font-weight: 500;
+    color: #f1f5f9;
+    border:3px solid #f1f5f9;
+  }
+
+  .dec {
+    background:#f1f5f900;
+    border-radius: 100px;
+    width: 80px;
+    padding: 10px ;
+    margin: 10px;
+    color: black;
+    font-weight: 500;
+    color: #f1f5f9;
+    border:3px solid #f1f5f9;
+  }
+
+  #home {
+     color: white;
+     background-color: #000;
+     width:80px;
+     text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 30px pink;
+
+  }
+
+  #About {
+    color: white;
+    background-color: #000;
+    width:80px;
+   text-align: center;
+   font-family: cursive;
+   box-shadow: 0 0 30px pink;
+
+  }
+
+  #contact {
+    color: white;
+    background-color: #000;
+    width:80px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 30px pink;
+
+  }
+
+  #my-cart {
+    color: white;
+    background-color: #000;
+    width:80px;
+    text-align: center;
+    font-family: cursive;
+    box-shadow: 0 0 30px pink;
+
+  }
+
+  .reference {
+    position: sticky;
+    top: 0;
+    
+  }
+
+  #kotaLogo{
+    color: white;
+    font-family: cursive;
+  }
+
+
+  
+  /* @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+
+    }
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  } */
+
+
+  #MEAL{
+    /* margin-left: 200px; */
+  }
+
+  .beverages {
+    margin-left: 0px;
+  }
+
+  
+
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .meal {
+        margin-left: 8%;
+    }
+
+    .meal2 {
+        margin-left: 7%;
+    }
+
+    .aloo {
+        margin-left: 100px;
+    }
+
+    .flex59 {
+        margin-left: 100px;
+    }
+
+    .item {
+        margin-left: 150px;
+    }
+
+    .rate {
+        margin-left: 155px;
+    }
+
+    .add {
+        margin-left: 105px;
+    }
+
+    .parth {
+        margin-left: 95px;
+    }
+
+    .price{
+        margin-left: 250px;
+    }
+
+    .item{
+        margin-left: 100px;
+    }
+
+    .Tea-Rate {
+        margin-left: 220px;
+
+    }
+
+    .Cone-Rate {
+        margin-left: 210px;
+    }
+
+    .bar-rate {
+        margin-left: 100px;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .price{
+        margin-left: 250px;
+    }
+
+    .item{
+        margin-right: 1000px;
+    }
+
+    .meal {
+        margin-left: 5%;
+    }
+
+    .meal2 {
+        margin-left: 3%;
+    }
+
+    .imgmeal {
+        display: none;
+    }
+
+    .aloo {
+        margin-left: 50px;
+    }
+
+    .flex59 {
+        margin-left: 0px;
+    }
+
+    /* .item {
+        margin-left: 100px;
+    } */
+
+    .rate {
+        margin-left: 105px;
+    }
+
+    .add {
+        margin-left: 55px;
+    }
+
+    .parth {
+        margin-left: 100px;
+    }
+
+    .Tea-Rate{
+        margin-left: 170px;
+    }
+
+    .Cone-Rate{
+        margin-left: 160px;
+    }
+
+    .bar-rate {
+        margin-left: 50px;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .meal {
+        margin-left: 3%;
+    }
+
+    .meal2 {
+        margin-left: 2%;
+    }
+
+    .aloo {
+        margin-left: 30px;
+    }
+
+    .flex59 {
+        /* margin-left: 30px; */
+    }
+
+    .item {
+        margin-left: 50px;
+    }
+
+    .price{
+        margin-left: 175px;
+    }
+
+    .rate {
+        margin-left: 55px;
+    }
+
+    .add {
+        margin-left: 30px;
+    }
+
+    .parth {
+        margin-left: 25px;
+    }
+
+    .Tea-Rate{
+        margin-left: 119px;
+
+    }
+
+    .Cone-Rate{
+        margin-left: 110px;
+
+    }
+    .bar-rate {
+        margin-left: 5px;
+
+    }
+}
+
+
+.toppest {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Align items vertically */
+    z-index: -250;
+}
+
+.toppest img {
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+.toppest img:hover {
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+
+body {
+    font-family: sans-serif;
+    background-image: url("veg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity here */
+}
+
+
+   
