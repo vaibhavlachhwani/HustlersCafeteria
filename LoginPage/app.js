@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log('Login failed');
                 // If login fails, show an alert
                 alert("Our Previous User !! Welcome Back");
-                window.location.href = "https://github.com/PARTHSHARMA4010/HackTheChain";
+                window.location.href = "http://localhost:5173/";
             }
 
             console.log(await response.json());
