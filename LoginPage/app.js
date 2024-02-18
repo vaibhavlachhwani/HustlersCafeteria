@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // });
 
                 // Redirect to another page after successful login
-                window.location.href = "https://github.com/PARTHSHARMA4010/HackTheChain";
+                window.location.href = "http://localhost:5173/";
             } else {
                 console.log('Login failed');
                 // If login fails, show an alert
