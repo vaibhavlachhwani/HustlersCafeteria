@@ -26,10 +26,10 @@ body{
 a {
     font-size:30px;
     font-family: cursive;
-    color: black;
+    color: white;
     margin-left: 580px;
     text-decoration: none;
-    background-color:white;
+    background-color:rgba(4, 199, 242, 0.974);
     border-radius: 12px;
     padding: 10px 20px;
 }
