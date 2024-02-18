@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/vaibhavlachhwani/HustlersCafeteria">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpg" alt="Logo" width="125" height="125">
   </a>
 
   <h3 align="center">Hustlers Cafeteria</h3>
