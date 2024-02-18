@@ -44,7 +44,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="images/cover.jpg" alt="Logo" width="80" height="80">
+<img src="images/cover.jpg" alt="Cover" width="1080" height="720">
 
 Every meal is a culinary adventure designed to delight and satisfy. Whether you're craving a quick bite between classes or seeking a cosy spot to unwind with friends, we've got you covered. With our convenient on-line ordering system, you can save precious time and enjoy the convenience of knowing exactly when your order will be ready for pick-up. So go ahead, indulge in your favourite dishes without the wait – at IIIT Kota Canteen, every moment is an opportunity to savour the flavours of college life.
 
